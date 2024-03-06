@@ -1,23 +1,32 @@
-from typing import Self
+from tkinter import *
 
+class Student:
+    def__init__(self, name): # type: ignore
+        self.first_name = name
 
-class student():
-    
-    
-    def__init__(self): # type: ignore
-    Self.first_name = "Bilal"
-        
-    def display_name(self):
-        print(self.first_name)
-        
     def set_grade(self, grade):
         self.grade = grade
-        
-    def display_name(self):
-        print(self.first_name)
 
-twelve_csc = []
+    def get_grade(self):
+        return self.grade
 
-twelve_csc.append(student("Bilal"))
+def show_grade():
+    # Show the grade using a label
+    grade_label.config(text=csc_2[0].get_grade())
+    pass
 
-twelve_csc[0].display_name()
+csc_2 = []
+
+csc_2.append(Student("Bilal"))
+csc_2[0]set.set_grade("Excellence")
+
+window = Tk()
+window.geometry("300x300")
+
+grade_label = Label()
+grade_label.pack()
+
+show_grade_btn = Button(text="show grade")
+show_grade_btn.pack()
+
+window.mainloop*()
