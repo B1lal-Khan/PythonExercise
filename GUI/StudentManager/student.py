@@ -21,7 +21,7 @@ def show_grades(event):
 
 csc_2 = []
 
-student1 = Student("Bilal")
+student1 = Student("Tharin")
 student1.set_grade("CMS", "Excellence")
 student1.set_grade("English", "Merit")
 
@@ -29,7 +29,7 @@ student2 = Student("Rehaan")
 student2.set_grade("Chemistry", "Not Achieved")
 student2.set_grade("Math", "Excellence")
 
-student3 = Student("Boaz")
+student3 = Student("Amon")
 student3.set_grade("Math", "Not Achieved")
 student3.set_grade("English", "Excellence")
 
