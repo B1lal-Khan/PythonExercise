@@ -78,7 +78,7 @@ def randomiser():
 
 class QuizStarter:
     def __init__(self, parent):
-        background_color = "OldLace"
+        background_color = "LightGray"
 
 
         # Frame setup
@@ -121,7 +121,7 @@ class QuizStarter:
 
 class Quiz:
     def __init__(self, parent):
-        background_color = "OldLace"
+        background_color = "LightGray"
 
 
         # Frame setup
